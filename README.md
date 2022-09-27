@@ -66,6 +66,10 @@ Basic github commands to get started.
 20. `git reset –hard` [commit]    
     * This command discards all history and goes back to the specified commit.
 
+21. `git rebase -i HEAD~4` 
+    * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
+    * 4 is the number of commits, can be any number.
+
 TODO
 
 21. `git diff` 
