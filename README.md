@@ -35,14 +35,14 @@ Basic github commands to get started.
 2. `git diff`
     * This command shows the differences between the files in the staging area and the latest version present.
 
-3. `git restore`
+3. `git restore` [file-name]
     * remove file or changes before `git add .`  
 
-3. `git restore --staged`
+3. `git restore --staged` [file-name]
     * It will discard any local, uncommitted changes in the corresponding files and thereby restore their last committed state. 
     * Exemple: To remove changes after execute `git add .`  
 
-2. `git clean -f - d`    
+2. `git clean -f - d` [file-name]     
     * delete untracked files
 
 1. `git log`
