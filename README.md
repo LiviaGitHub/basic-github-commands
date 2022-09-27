@@ -8,8 +8,8 @@ Basic github commands to get started.
         * create a .gitignore
 
 ##### `git clone`
-    * SSH protocol to securely transfer repository data over the internet. Uses public key encryption to secure data.
-    * HTTPS uses public-key encryption-based authentication for doing every action like git push, git clone, git fetch and git pull, etc.
+    * SSH
+    * HTTPS
 
 ##### `git fork`
 
@@ -54,7 +54,7 @@ Basic github commands to get started.
     * remove file or changes before `git add .`  
 
 ##### `git restore --staged` [file-name]
-    * It will discard any local, uncommitted changes in the corresponding files and thereby restore their last committed state. 
+    * It will discard any local, uncommitted changes. 
     * Exemple: To remove changes after execute `git add .`  
 
 ##### `git clean -f - d` [file-name]     
@@ -63,10 +63,8 @@ Basic github commands to get started.
 ##### `git log`
     * show commit logs 
 
-    ------ 
-
 ##### `git reset` [commit]
-    * This command undoes all the commits after the specified commit and preserves the changes locally.
+    * This command undoes all the commits after the specified commit.
 
 ##### `git reset –hard` [commit]    
     * This command discards all history and goes back to the specified commit.
