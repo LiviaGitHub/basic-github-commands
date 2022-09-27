@@ -7,7 +7,7 @@ Basic github commands to get started.
         * use dashes.
         * create a .gitignore
 
-## `git clone`
+### `git clone`
     * SSH protocol to securely transfer repository data over the internet. Uses public key encryption to secure data.
     * HTTPS uses public-key encryption-based authentication for doing every action like git push, git clone, git fetch and git pull, etc.
 
