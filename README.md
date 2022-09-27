@@ -9,19 +9,8 @@ Basic github commands to get started.
 
 2. `git status`  
 
-2. `git commit -m` "any-comment"
-
-1. `git commit --allow-empty -m` "any-comment"
-    * allow empty commits, no changes
-
-2. `git checkout` [branch-name]
-    * switch between branches
-
-2. `git checkout -b` [branch-name]
-    * create new branch
-
-1. `git merge origin/master`
-    * update local branch with master    
+2. `git branch`
+    * list local branches
 
 2. `git branch -D` [branch-name]
     * delete branch
@@ -31,6 +20,26 @@ Basic github commands to get started.
     * Example:   
             - master       58ec21ac [origin/master] update changelog
             - test-branch  58ec21ac update changelog
+
+2. `git checkout` [branch-name]
+    * switch between branches
+
+2. `git checkout -b` [branch-name]
+    * create new branch 
+
+2. `git commit -m` "any-comment"
+
+1. `git commit --allow-empty -m` "any-comment"
+    * allow empty commits, no changes
+
+2. `git pull origin` [branch-name]
+    * update local branch. ex: git pull origin master
+
+2. `git push origin` [branch-name]
+    * used to publish local changes to a central repository.
+
+1. `git merge origin/master`
+    * update local branch with master   
 
 2. `git diff`
     * This command shows the differences between the files in the staging area and the latest version present.
