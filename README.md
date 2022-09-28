@@ -7,6 +7,9 @@ Basic github commands to get started.
         * use dashes.
         * create a .gitignore
 
+2. `git add`
+    * can be used with dot or not.            
+
 2. `git clone`
     * SSH
     * HTTPS
@@ -24,8 +27,8 @@ Basic github commands to get started.
 7. `git branch -vv`
     * check if your local branch is behind, ahead. 
     * Example:   
-            - master       58ec21ac [origin/master] update changelog
-            - test-branch  58ec21ac update changelog
+        - master       58ec21ac [origin/master] update changelog
+        - test-branch  58ec21ac update changelog
 
 8. `git checkout` [branch-name]
     * switch between branches
@@ -70,7 +73,5 @@ Basic github commands to get started.
     * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
     * 4 is the number of commits, can be any number.
 
-TODO
-
-21. `git diff` 
+22. `git diff` 
     * This command shows the differences between the files in the staging area and the latest version present.
