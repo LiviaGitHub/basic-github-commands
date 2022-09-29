@@ -8,8 +8,6 @@ Basic github commands to get started.
         * create a .gitignore
 
 2. `git clone`
-    * SSH - your own key.
-    * HTTPS - username and password of github. 
 
 3. `git add`
     * can be used with dot or not.            
