@@ -46,10 +46,10 @@ Basic github commands to get started.
 14. `git merge origin/master`
     * update local branch with master   
 
-15. `git restore` [file-name]
+15. `git restore` [file-name] and `git restore .` 
     * remove file or changes before `git add .`  
 
-16. `git restore --staged` [file-name]
+16. `git restore --staged` [file-name] and `git restore --staged .`
     * It will discard any local, uncommitted changes. 
     * Exemple: To remove changes after execute `git add .`  
 
@@ -68,3 +68,6 @@ Basic github commands to get started.
 21. `git rebase -i HEAD~4` 
     * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
     * 4 is the number of commits, can be any number.
+
+22. `rm -fr .git`    
+    * delete a git repository
