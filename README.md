@@ -7,14 +7,12 @@ Basic github commands to get started.
         * use dashes.
         * create a .gitignore
 
-2. `git add`
-    * can be used with dot or not.            
-
 2. `git clone`
-    * SSH
-    * HTTPS
+    * SSH - your own key.
+    * HTTPS - username and password of github. 
 
-3. `git fork`
+3. `git add`
+    * can be used with dot or not.            
 
 4. `git status`  
 
@@ -72,6 +70,3 @@ Basic github commands to get started.
 21. `git rebase -i HEAD~4` 
     * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
     * 4 is the number of commits, can be any number.
-
-22. `git diff` 
-    * This command shows the differences between the files in the staging area and the latest version present.
