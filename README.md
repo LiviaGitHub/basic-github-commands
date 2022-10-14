@@ -17,39 +17,39 @@ Basic github commands to get started.
 5. `git branch`
     * list local branches
 
-6. `git branch -d` [branch-name]
+6. `git branch -D` [branch-name]
+    * Force delete the specified branch, even if it has unmerged changes. 
+
+7. `git branch -d` [branch-name]
     * Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
 
-6. `git branch -D` [branch-name]
-    * Force delete the specified branch, even if it has unmerged changes.
-
-6. `git branch -m ` [branch-name] 
+8. `git branch -m ` [branch-name] 
     * rename branch
 
-6. `git branch -a`
+9. `git branch -a`
     * list all remote branches.
 
-7. `git branch -vv`
+10. `git branch -vv`
     * check if your local branch is behind, ahead. 
     * Example:   
         - master       58ec21ac [origin/master] update changelog
         - test-branch  58ec21ac update changelog
 
-8. `git checkout` [branch-name]
+11. `git checkout` [branch-name]
     * switch between branches
 
-9. `git checkout -b` [branch-name]
+12. `git checkout -b` [branch-name]
     * create new branch 
 
-10. `git commit -m` "any-comment"
+13. `git commit -m` "any-comment"
 
-11. `git commit --allow-empty -m` "any-comment"
+14. `git commit --allow-empty -m` "any-comment"
     * allow empty commits, no changes
 
-12. `git pull origin` [branch-name]
+15. `git pull origin` [branch-name]
     * update local branch. ex: git pull origin master
 
-13. `git push origin` [branch-name]
+16. `git push origin` [branch-name]
     * used to publish local changes to a central repository.
 
 14. `git merge origin/master`
@@ -58,25 +58,26 @@ Basic github commands to get started.
 15. `git restore` [file-name] and `git restore .` 
     * remove file or changes before `git add .`  
 
-16. `git restore --staged` [file-name] and `git restore --staged .`
+17. `git restore --staged` [file-name] and `git restore --staged .`
     * It will discard any local, uncommitted changes. 
     * Exemple: To remove changes after execute `git add .`  
 
-17. `git clean -f - d` [file-name]     
+18. `git clean -f - d` [file-name]     
     * delete untracked files
 
-18. `git log`
+19. `git log`
     * show commit logs 
 
-19. `git reset` [commit]
-    * This command undoes all the commits after the specified commit.
+20. `git reset` [commit]
+    * This command undoes all the commits after the specified commit.     
 
-20. `git reset –hard` [commit]    
+21. `git reset –hard` [commit]    
     * This command discards all history and goes back to the specified commit.
 
-21. `git rebase -i HEAD~4` 
+22. `git rebase -i HEAD~4` 
     * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
     * 4 is the number of commits, can be any number.
+    * all commits above: commit [commit-mumber] (origin/main, origin/HEAD)
 
-22. `rm -fr .git`    
-    * delete a git repository
+23. `git diff`
+    * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
