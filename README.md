@@ -17,11 +17,17 @@ Basic github commands to get started.
 5. `git branch`
     * list local branches
 
-6. `git branch -D` [branch-name]
-    * delete branch
+6. `git branch -d` [branch-name]
+    * Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
 
 6. `git branch -D` [branch-name]
-    * delete branch
+    * Force delete the specified branch, even if it has unmerged changes.
+
+6. `git branch -m ` [branch-name] 
+    * rename branch
+
+6. `git branch -a`
+    * list all remote branches.
 
 7. `git branch -vv`
     * check if your local branch is behind, ahead. 
