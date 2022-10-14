@@ -9,7 +9,7 @@ Basic github commands to get started.
 
 2. `git clone`
 
-3. `git add`
+3. `git add` [changes] or `git add .`
     * can be used with dot or not.            
 
 4. `git status`  
