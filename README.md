@@ -23,7 +23,7 @@ Basic github commands to get started.
 7. `git branch -d` [branch-name]
     * Delete the specified branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
 
-8. `git branch -m ` [branch-name] 
+8. `git branch -m` [branch-name] 
     * rename branch
 
 9. `git branch -a`
@@ -70,14 +70,11 @@ Basic github commands to get started.
 
 21. `git reset –hard` [commit]    
     * This command discards all history and goes back to the specified commit.
-    * `git reset --soft HEAD^` going back to the commit before HEAD.
-    * `git reset --soft HEAD~2` going back two commits before HEAD.
+    * `git reset --hard HEAD^` going back to the commit before HEAD.
+    * `git reset --hard HEAD~2` going back two commits before HEAD.
 
 22. `git rebase -i HEAD~4` 
     * HEAD means where you are working [current_branch].
     * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
     * 4 is the number of commits, can be any number.
     * all commits above: commit [commit-mumber] (origin/main, origin/HEAD)
-
-23. `git diff`
-    * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
