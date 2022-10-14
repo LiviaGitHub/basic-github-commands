@@ -66,15 +66,13 @@ Basic github commands to get started.
     * delete untracked files
 
 19. `git log`
-    * show commit logs 
-
-20. `git reset` [commit]
-    * This command undoes all the commits after the specified commit.     
+    * show commit logs     
 
 21. `git reset –hard` [commit]    
     * This command discards all history and goes back to the specified commit.
 
 22. `git rebase -i HEAD~4` 
+    * HEAD means where you are working [current_branch].
     * have 4 commits, but you haven’t pushed anything yet and you want to put everything into one commit.
     * 4 is the number of commits, can be any number.
     * all commits above: commit [commit-mumber] (origin/main, origin/HEAD)
