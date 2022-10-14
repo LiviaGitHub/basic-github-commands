@@ -52,24 +52,26 @@ Basic github commands to get started.
 16. `git push origin` [branch-name]
     * used to publish local changes to a central repository.
 
-14. `git merge origin/master`
+17. `git merge origin/master`
     * update local branch with master   
 
-15. `git restore` [file-name] and `git restore .` 
+18. `git restore` [file-name] and `git restore .` 
     * remove file or changes before `git add .`  
 
-17. `git restore --staged` [file-name] and `git restore --staged .`
+19. `git restore --staged` [file-name] and `git restore --staged .`
     * It will discard any local, uncommitted changes. 
     * Exemple: To remove changes after execute `git add .`  
 
 18. `git clean -f - d` [file-name]     
     * delete untracked files
 
-19. `git log`
+20. `git log`
     * show commit logs     
 
 21. `git reset –hard` [commit]    
     * This command discards all history and goes back to the specified commit.
+    * `git reset --soft HEAD^` going back to the commit before HEAD.
+    * `git reset --soft HEAD~2` going back two commits before HEAD.
 
 22. `git rebase -i HEAD~4` 
     * HEAD means where you are working [current_branch].
