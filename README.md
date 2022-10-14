@@ -20,6 +20,9 @@ Basic github commands to get started.
 6. `git branch -D` [branch-name]
     * delete branch
 
+6. `git branch -D` [branch-name]
+    * delete branch
+
 7. `git branch -vv`
     * check if your local branch is behind, ahead. 
     * Example:   
