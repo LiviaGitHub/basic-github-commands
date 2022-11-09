@@ -1,4 +1,4 @@
-# basic-github-commands
+# Basic Github commands
 Basic github commands to get started.
 
 1. create a new repository
